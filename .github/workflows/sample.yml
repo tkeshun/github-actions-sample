@@ -11,5 +11,5 @@ jobs: # ワークフローで実行されるジョブ群
        with:
          java-version: '17'
          distribution: 'adopt'
-     - name: Build with Test # ビルドとテスト
-       run: ./gradlew build # コマンドラインにてテストとビルドを実行
+     - name: Build with Test # ビルドとテス
+       run: chmod 777 ./gradlew ./gradlew build # コマンドラインにてテストとビルドを実行
